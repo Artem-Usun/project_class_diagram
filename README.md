@@ -23,3 +23,10 @@ class FreightCar: public Automobile    //грузовые
   MinCarrying=1000;                   //минимальная грузоподъёмност 1000кг
 };
 
+class FordCar: public PassengerCar 
+{
+};
+
+class VAZ: public PassengerCar
+{
+};
